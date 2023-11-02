@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 void dgemm(int n, double* A, double* B, double* C)
 {
     for (int i = 0; i < n; i++) //This is the start of the outer loop that iterates over each row i of the matrices.
