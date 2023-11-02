@@ -10,8 +10,8 @@ LDFLAGS =
 # Makefile settings - Can be customized.
 APPNAME = dgemm
 EXT = .c
-SRCDIR = ${HOME}/Escritorio/C_examples/Matrix_Multiplication_DGEMM/ ¡Specify the directory wherein you saved the main.c file!!And erase this comment!
-OBJDIR = ${HOME}/Escritorio/C_examples/Matrix_Multiplication_DGEMM/obj ¡Specify the directory wherein you saved the main.c file. It will create a directory named obj!!And erase this comment!
+SRCDIR = ${HOME}/Escritorio/C_examples/Matrix_Multiplication_DGEMM/ #¡Specify the directory wherein you saved the main.c file!!And erase this comment!
+OBJDIR = ${HOME}/Escritorio/C_examples/Matrix_Multiplication_DGEMM/obj #¡Specify the directory wherein you saved the main.c file. It will create a directory named obj!!And erase this comment!
 
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
